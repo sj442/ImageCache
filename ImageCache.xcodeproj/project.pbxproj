@@ -27,12 +27,11 @@
 		3F8A56A01C3A53C800B9CF0A /* IMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56941C3A53C800B9CF0A /* IMGViewController.m */; };
 		3F8A56A11C3A53C800B9CF0A /* IMGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56961C3A53C800B9CF0A /* IMGViewModel.m */; };
 		3F8A56A21C3A53C800B9CF0A /* IMGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56961C3A53C800B9CF0A /* IMGViewModel.m */; };
-		3F8A56A61C3A53DF00B9CF0A /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56A51C3A53DF00B9CF0A /* Node.m */; };
-		3F8A56A71C3A53DF00B9CF0A /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56A51C3A53DF00B9CF0A /* Node.m */; };
 		3F8A56AD1C3A53F600B9CF0A /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56AA1C3A53F600B9CF0A /* DoublyLinkedList.m */; };
 		3F8A56AE1C3A53F600B9CF0A /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56AA1C3A53F600B9CF0A /* DoublyLinkedList.m */; };
 		3F8A56AF1C3A53F600B9CF0A /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56AC1C3A53F600B9CF0A /* ImageCache.m */; };
 		3F8A56B01C3A53F600B9CF0A /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A56AC1C3A53F600B9CF0A /* ImageCache.m */; };
+		3F9EB5081C7FFEC2003CFE34 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EB5071C7FFEC2003CFE34 /* Node.m */; };
 		3F9ECD871C73B05A001D4F7F /* NSData+StringConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ECD841C73B05A001D4F7F /* NSData+StringConversion.m */; };
 		3F9ECD881C73B05A001D4F7F /* NSString+BytesConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ECD861C73B05A001D4F7F /* NSString+BytesConversion.m */; };
 /* End PBXBuildFile section */
@@ -82,12 +81,12 @@
 		3F8A56941C3A53C800B9CF0A /* IMGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMGViewController.m; path = "Sample Project/IMGViewController.m"; sourceTree = "<group>"; };
 		3F8A56951C3A53C800B9CF0A /* IMGViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMGViewModel.h; path = "Sample Project/IMGViewModel.h"; sourceTree = "<group>"; };
 		3F8A56961C3A53C800B9CF0A /* IMGViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMGViewModel.m; path = "Sample Project/IMGViewModel.m"; sourceTree = "<group>"; };
-		3F8A56A41C3A53DF00B9CF0A /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = Cache/Node.h; sourceTree = "<group>"; };
-		3F8A56A51C3A53DF00B9CF0A /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = Cache/Node.m; sourceTree = "<group>"; };
 		3F8A56A91C3A53F600B9CF0A /* DoublyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoublyLinkedList.h; path = "LRU cache/DoublyLinkedList.h"; sourceTree = "<group>"; };
 		3F8A56AA1C3A53F600B9CF0A /* DoublyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoublyLinkedList.m; path = "LRU cache/DoublyLinkedList.m"; sourceTree = "<group>"; };
 		3F8A56AB1C3A53F600B9CF0A /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCache.h; path = "LRU cache/ImageCache.h"; sourceTree = "<group>"; };
 		3F8A56AC1C3A53F600B9CF0A /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCache.m; path = "LRU cache/ImageCache.m"; sourceTree = "<group>"; };
+		3F9EB5061C7FFEC2003CFE34 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = "LRU cache/Node.h"; sourceTree = "<group>"; };
+		3F9EB5071C7FFEC2003CFE34 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = "LRU cache/Node.m"; sourceTree = "<group>"; };
 		3F9ECD831C73B05A001D4F7F /* NSData+StringConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+StringConversion.h"; sourceTree = "<group>"; };
 		3F9ECD841C73B05A001D4F7F /* NSData+StringConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+StringConversion.m"; sourceTree = "<group>"; };
 		3F9ECD851C73B05A001D4F7F /* NSString+BytesConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BytesConversion.h"; sourceTree = "<group>"; };
@@ -218,8 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				3F8A56A81C3A53E300B9CF0A /* LRU */,
-				3F8A56A41C3A53DF00B9CF0A /* Node.h */,
-				3F8A56A51C3A53DF00B9CF0A /* Node.m */,
 			);
 			name = Cache;
 			sourceTree = "<group>";
@@ -227,6 +224,8 @@
 		3F8A56A81C3A53E300B9CF0A /* LRU */ = {
 			isa = PBXGroup;
 			children = (
+				3F9EB5061C7FFEC2003CFE34 /* Node.h */,
+				3F9EB5071C7FFEC2003CFE34 /* Node.m */,
 				3F8A56A91C3A53F600B9CF0A /* DoublyLinkedList.h */,
 				3F8A56AA1C3A53F600B9CF0A /* DoublyLinkedList.m */,
 				3F8A56AB1C3A53F600B9CF0A /* ImageCache.h */,
@@ -433,8 +432,8 @@
 				3F8A56971C3A53C800B9CF0A /* IMGDataManager.m in Sources */,
 				3F8A569F1C3A53C800B9CF0A /* IMGViewController.m in Sources */,
 				3F8A562E1C319E3400B9CF0A /* main.m in Sources */,
-				3F8A56A61C3A53DF00B9CF0A /* Node.m in Sources */,
 				3F8A56AD1C3A53F600B9CF0A /* DoublyLinkedList.m in Sources */,
+				3F9EB5081C7FFEC2003CFE34 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +449,6 @@
 				3F8A56981C3A53C800B9CF0A /* IMGDataManager.m in Sources */,
 				3F8A56A01C3A53C800B9CF0A /* IMGViewController.m in Sources */,
 				3F8A567E1C3A180B00B9CF0A /* LinkedListTests.m in Sources */,
-				3F8A56A71C3A53DF00B9CF0A /* Node.m in Sources */,
 				3F8A56AE1C3A53F600B9CF0A /* DoublyLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
